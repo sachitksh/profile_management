@@ -22,6 +22,7 @@ Wait for the installation to complete. Once it's done, you'll see an "Installed"
  ``` https://github.com/sachitksh/profile_management.git ```
  open vs code and navigate to the project directory
  ``` cd profile_management ```
+create a new file called .env set ACCESS_TOKEN_SECRET=ATS
 install dependencies
  ``` npm install ```
  start the server
