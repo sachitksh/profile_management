@@ -19,7 +19,7 @@ Wait for the installation to complete. Once it's done, you'll see an "Installed"
 
 # How to run project on local server
  Clone the project 
- ``` https://github.com/sachitksh/profile_management.git ```
+ ```https://github.com/sachitksh/profile_management.git```
  open vs code and navigate to the project directory
  ``` cd profile_management ```
 create a new file called .env set ACCESS_TOKEN_SECRET=ATS
