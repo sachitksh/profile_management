@@ -6,7 +6,7 @@ server : Expressjs,nodejs
 
 database : mongodb and mongoDB compass
 
-API handler : thunderclient
+API handler : thunderclient extension(vs code)
 
 # Installing mongodb and mongoDBcompass
 https://www.mongodb.com/products/compass  
