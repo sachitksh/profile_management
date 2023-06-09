@@ -57,7 +57,7 @@ access_token will be generated copy this access token in auth bearer
 
  # How to create update show and delete  your profile
  To create:
- open thunderclient and send a post request to http://localhost:5000/api/profiles/createprofile  with json input in body
+ open thunderclient and send a post request to http://localhost:5000/api/profiles  with json input in body
  input example:{
  "name":"sachit",
   "email":"sachitkshirsagar912@gmail.com",
@@ -69,12 +69,12 @@ access_token will be generated copy this access token in auth bearer
   "occupation":"",
   "skills":"",
 }
-To update: send a put request to http://localhost:5000/api/profiles/updateprofile/id: (your id at the time of createprofile)
+To update: send a put request to http://localhost:5000/api/profiles/id: (your id at the time of createprofile)
 input example{
 "name":"rahul"
 }
-To update: send a delete request to http://localhost:5000/api/profiles/deleteprofile/id: (your id at the time of createprofile)
+To update: send a delete request to http://localhost:5000/api/profiles/id: (your id at the time of createprofile)
 
-To view: send a get request to http://localhost:5000/api/profiles/showprofile/id: (your id at the time of createprofile)
+To view: send a get request to http://localhost:5000/api/profiles/id: (your id at the time of createprofile)
  
  
