@@ -12,9 +12,13 @@ https://www.mongodb.com/try/download/community
 
 # installing thunderclient extenstion 
 Launch Visual Studio Code on your computer.
+
 Click on the Extensions icon in the left sidebar or press Ctrl+Shift+X (Windows/Linux) or Cmd+Shift+X (Mac) to open the Extensions view.
+
 In the Extensions view, search for "ThunderClient" using the search bar at the top.
+
 click on the "Install" button next to it.
+
 Wait for the installation to complete. Once it's done, you'll see an "Installed" message next to the extension.
 
 # How to run project on local server
