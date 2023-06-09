@@ -33,5 +33,48 @@ install dependencies
  create a new database with collection name called profiles
  
  # How to register & login your first user
+To register:
+
+open thunderclient and send a post request to http://localhost:5000/api/users/register with json input in body
+ input example:{
+  "username":"sachit",
+  "email":"sachitkshirsagar912@gmail.com",
+  "password":"password"
+}
+![image](https://github.com/sachitksh/profile_management/assets/83107611/dfd37f0a-fc20-403b-ba8b-cc2e819c6be8)
+
+To login:
+send a post request to http://localhost:5000/api/users/login with json input in body
+ input example:{
+  "email":"sachitkshirsagar912@gmail.com",
+  "password":"password"
+}
+![image](https://github.com/sachitksh/profile_management/assets/83107611/10c33d55-ac56-4c19-889e-7b83fe1956de)
+
+access_token will be generated copy this access token in auth bearer
+![image](https://github.com/sachitksh/profile_management/assets/83107611/49e1414f-aefb-4abd-b3f3-d5d783eadb98)
+
+
+ # How to create update show and delete  your profile
+ To create:
+ open thunderclient and send a post request to http://localhost:5000/api/profiles/createprofile  with json input in body
+ input example:{
+ "name":"sachit",
+  "email":"sachitkshirsagar912@gmail.com",
+  "phone":"password",
+  "about":"",
+  "age":"",
+  "sex":"",
+  "education":"",
+  "occupation":"",
+  "skills":"",
+}
+To update: send a put request to http://localhost:5000/api/profiles/updateprofile/id: (your id at the time of createprofile)
+input example{
+"name":"rahul"
+}
+To update: send a delete request to http://localhost:5000/api/profiles/deleteprofile/id: (your id at the time of createprofile)
+
+To view: send a get request to http://localhost:5000/api/profiles/showprofile/id: (your id at the time of createprofile)
  
  
