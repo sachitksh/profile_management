@@ -3,11 +3,14 @@ profile management backend API endpoints for users to update their profile infor
 
 # Required Tech stack
 server : Expressjs,nodejs
+
 database : mongodb and mongoDB compass
+
 API handler : thunderclient
 
 # Installing mongodb and mongoDBcompass
-https://www.mongodb.com/products/compass 
+https://www.mongodb.com/products/compass  
+
 https://www.mongodb.com/try/download/community 
 
 # installing thunderclient extenstion 
@@ -86,7 +89,7 @@ open thunderclient and send a post request to http://localhost:5000/api/profiles
  input example:{
  "name":"sachit",
   "email":"sachitkshirsagar912@gmail.com",
-  "phone":"password",
+  "phone":"9827271121",
   "about":"",
   "age":"",
   "sex":"",
