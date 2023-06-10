@@ -51,7 +51,7 @@ open mongoDBcompass and connect to sever
 
 ``` mongodb://127.0.0.1:27017/ ```
 
-create a new database with collection name called profiles
+create a new database with name profile_management and new collection with name called profiles
  
  # How to register & login your first user
 To register:
