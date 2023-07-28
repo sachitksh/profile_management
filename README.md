@@ -82,7 +82,7 @@ access_token will be generated copy this access token in auth bearer
 ![image](https://github.com/sachitksh/profile_management/assets/83107611/49e1414f-aefb-4abd-b3f3-d5d783eadb98)
 
 
- # How to create update show and delete  your profile
+ # How to create, update,show and delete  your profile
  To create:
 
 open thunderclient and send a post request to http://localhost:5000/api/profiles  with json input in body
